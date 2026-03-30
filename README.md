@@ -29,7 +29,7 @@ Launch the simulation environment. The `-r` flag ensures the physics engine star
 ign gazebo -r quadcopter.sdf
 ```
 
-#### **Terminal 2: Start Gazebo**
+#### **Terminal 2: ROS 2 - Gazebo Bridge**
 Establish the communication link for high-level velocity (Twist) commands.
 ```bash
 ros2 run ros_gz_bridge parameter_bridge /X3/gazebo/command/twist@geometry_msgs/msg/Twist]gz.msgs.Twist
